@@ -27,7 +27,7 @@ class MainFrame extends JFrame("Regex Tester") {
 
   private def initializeComponents = {
 
-    splitPane.setDividerLocation(300)
+    splitPane.setDividerLocation(500)
 
     regexTxt.getDocument.addDocumentListener(new CallbackListener( de => {
       updateRegex
